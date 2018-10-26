@@ -5,9 +5,84 @@
     <title>SitOnChair</title>
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,600,700&amp;subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <header class="page-header">
+        <div class="container">
+            <!-- slash - glowny katalog, czyli glowna strona -->
+            <h1 class="page-logo">
+                <a href="/" class="page-logo-link">
+                    Sit <span>on</span> chair
+                </a> 
+            </h1>
+            <nav class="page-nav">
+                <ul class="page-nav-list">
+                    <li>
+                        <a href="">O firmie</a>
+                        <ul class="page-nav-sublist">
+                            <li><a href="">Aktualności</a></li>
+                            <li><a href="">Nasz team</a></li>
+                            <li><a href="">Historia</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Galeria</a></li>
+                    <li><a href="">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="main-banner-bg">
+        <div class="container">
+            <div class="banner">
+                <button class="banner-prev">&lt;</button>
+                <button class="banner-next">&gt;</button>
+
+                <div class="banner-slides">
+                    <div class="banner-slide banner-slide-show"></div>
+                    <div class="banner-slide"></div>
+                    <div class="banner-slide"></div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
+    <div class="main-contact">
+        <div class="container">
+            <h2 class="section-title">kontakt</h2>
+
+            <form method="post" class="form">
+                <div class="form-left">
+                    <div class="form-row">
+                        <label for="name">Wpisz imię</label>
+                        <input type="text" name="name" id="name" placeholder="Imię">
+                    </div>
+                    <div class="form-row">
+                        <label for="email">Wpisz email</label>
+                        <input type="email" name="email" id="email" placeholder="email">
+                    </div>
+                    <div class="form-row">
+                        <label for="msg">Wiadomość</label>
+                        <textarea name="msg" id="msg" placeholder="Wiadomość"></textarea>
+                    </div>
+                </div>
+                <div class="form-right">
+                    <div class="form-row">
+                        <label class="checkbox">
+                            <input type="checkbox" name="" id="" class="checkbox-input">
+                            <span class="checkbox-text">
+                                Zgadzam  się na przetwarzanie danych osobowych
+                            </span>
+                        </label>
+                    </div>
+                </div>
+            </form>
+
+        </div>
+    </div>
 </body>
 </html>
