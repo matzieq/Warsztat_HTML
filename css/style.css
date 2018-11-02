@@ -176,7 +176,7 @@ body {
     background: none;
     cursor: pointer;
     outline: none;
-
+    transition: 0.2s;
 }
 
 .banner-prev:active,
@@ -335,7 +335,7 @@ body {
 .main-cards-bg {
 
     background: var(--color-light-background);
-    padding: 40px;
+    padding: 40px 40px 60px 40px;
 }
 
 .cards {
@@ -519,6 +519,7 @@ body {
 
 .form-row {
     margin-bottom: 25px;
+    /* padding: 0; */
 }
 
 .form label:not(.checkbox) {
@@ -577,4 +578,110 @@ body {
     font-size: 20px;
     font-weight: 300;
     color: #aaa;
+}
+
+.form-picture {
+    /* border: 1px solid black; */
+    /* margin: 0 auto; */
+    width: 80%;
+    height: 220px;
+    background: url("../images/red_chair.png") no-repeat;
+    background-size: cover;
+    background-position: 50% -24px;
+    /* padding: 0 5%; */
+}
+
+.form-submit {
+    width: 100%;
+    font-size: 36px;
+    font-weight: 600;
+    padding: 20px;
+    margin-top: 30px;
+    text-transform: uppercase;
+    background: none;
+    background-color: var(--color);
+    outline: none;
+    border: 0;
+    border-radius: 10px;
+    color: #fff;
+    line-height: 100%;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.form-submit:hover {
+    font-size: 38px;
+}
+
+.form-sumbit:active {
+    background-color: #333;
+}
+
+/* STOPKA */
+
+.page-footer {
+    margin: 40px 0;
+
+}
+
+.page-footer .container {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: flex-end;
+}
+
+
+
+.footer-copyright {
+    color: var(--color);
+    font-weight: 400;
+    line-height: 100%;
+    width: 710px;
+}
+
+.footer-social-icons {
+    width: 195px;
+    display: flex;
+    /* border: 1px solid black; */
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    /* border: 1px solid black; */
+    border-radius: 50%;
+    margin: 0 5px;
+}
+
+.icon.flickr {
+    background: url("../images/flickr.png");
+    background-position: center center;
+}
+
+.icon.vimeo {
+    background: url("../images/vimeo.png");
+    background-position: center center;
+}
+
+.icon.pinterest {
+    background: url("../images/pinterest.png");
+    background-position: center center;
+}
+
+.icon.twitter {
+    background: url("../images/twitter.png");
+    background-position: center center;
+}
+
+.page-footer .page-logo-link {
+    width: 150px;
+    color: var(--color);
+    font-size: 20px;
+    /* letter-spacing: 0.1em; */
+    text-align: right;
+    /* border: 1px solid black; */
+}
+
+.page-footer .page-logo-link span {
+    font-weight: 700;
 }

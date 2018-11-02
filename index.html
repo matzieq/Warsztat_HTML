@@ -164,30 +164,45 @@
                 <div class="form-left">
                     <div class="form-row">
                         <label for="name">Wpisz imię</label>
-                        <input type="text" name="name" id="name" placeholder="Imię">
+                        <input type="text" name="name" id="name" placeholder="Imię" required>
                     </div>
                     <div class="form-row">
                         <label for="email">Wpisz email</label>
-                        <input type="email" name="email" id="email" placeholder="email">
+                        <input type="email" name="email" id="email" placeholder="email" required>
                     </div>
                     <div class="form-row">
                         <label for="msg">Wiadomość</label>
-                        <textarea name="msg" id="msg" placeholder="Wiadomość"></textarea>
+                        <textarea name="msg" id="msg" placeholder="Wiadomość" required></textarea>
                     </div>
                 </div>
                 <div class="form-right">
                     <div class="form-row">
+                        <div class="form-picture"></div>
                         <label class="checkbox">
-                            <input type="checkbox" name="" id="" class="checkbox-input">
+                            <input type="checkbox" name="" id="" class="checkbox-input" required>
                             <span class="checkbox-text">
                                 Zgadzam  się na przetwarzanie danych osobowych
                             </span>
                         </label>
+                        <input type="submit" value="WYŚLIJ" class="form-submit">
                     </div>
                 </div>
             </form>
 
         </div>
     </div>
+
+    <footer class="page-footer">
+        <div class="container">
+            <span class="footer-copyright">Copyright 2014 | All Rights Reserved. - Sit On Chair</span>
+            <div class="footer-social-icons">
+                <a href="https://www.flickr.com" target="_blank" class="icon flickr"></a>
+                <a href="https://vimeo.com/" target="_blank" class="icon vimeo"></a>
+                <a href="https://pinterest.com/" target="_blank" class="icon pinterest"></a>
+                <a href="https://twitter.com/" target="_blank" class="icon twitter"></a>
+            </div>
+            <a href="/" class="page-logo-link">Sit <span>on</span> chair</a>
+        </div>
+    </footer>
 </body>
 </html>
